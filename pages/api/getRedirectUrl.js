@@ -12,6 +12,6 @@ export default function handler(req, res) {
   }
 
   limiter(req, res, () => {
-    res.status(200).json({ url: 'https://lefresco.shop/' });
+    res.status(200).json({ url: 'https://frynero.shop/' });
   });
 }
